@@ -1,0 +1,57 @@
+﻿Compilazione avviata 05/06/2016 13:47:42.
+     1>Progetto "C:\Users\lazzaro\Desktop\cube_source\vcpp\cube.vcxproj" sul nodo 2 (destinazioni: Build).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\obj\) contains files shared from another project (cube.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\lazzaro\Desktop\cube_source\vcpp\..\bin\.exe) does not match the Linker's OutputFile property value (C:\Users\lazzaro\Desktop\cube_source\bin\lazarus.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1195,5): warning MSB8012: TargetName(cube) does not match the Linker's OutputFile property value (lazarus). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\lazarus.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib odbc32.lib odbccp32.lib zlib.lib opengl32.lib glu32.lib msvcrt.lib SDLmain.lib SDL.lib SDL_image.lib ws2_32.lib winmm.lib SDL_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Release/cube.pdb" /MAP:".\Release/cube.map" /MAPINFO:EXPORTS /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\cube.lib" /MACHINE:X86 /SAFESEH:NO /MACHINE:I386 .\Release/callbacks.obj
+         .\Release/host.obj
+         .\Release/list.obj
+         .\Release/memory.obj
+         .\Release/packet.obj
+         .\Release/peer.obj
+         .\Release/protocol.obj
+         .\Release/unix.obj
+         .\Release/win32.obj
+         .\Release/client.obj
+         .\Release/clientextras.obj
+         .\Release/clientgame.obj
+         .\Release/clients2c.obj
+         .\Release/command.obj
+         .\Release/console.obj
+         .\Release/editing.obj
+         .\Release/entities.obj
+         .\Release/main.obj
+         .\Release/menus.obj
+         .\Release/monster.obj
+         .\Release/pch.obj
+         .\Release/physics.obj
+         .\Release/rendercubes.obj
+         .\Release/renderextras.obj
+         .\Release/rendergl.obj
+         .\Release/rendermd2.obj
+         .\Release/renderparticles.obj
+         .\Release/rendershader.obj
+         .\Release/rendertext.obj
+         .\Release/savegamedemo.obj
+         .\Release/server.obj
+         .\Release/serverbrowser.obj
+         .\Release/serverms.obj
+         .\Release/serverutil.obj
+         .\Release/sound.obj
+         .\Release/tools.obj
+         .\Release/weapon.obj
+         .\Release/world.obj
+         .\Release/worldio.obj
+         .\Release/worldlight.obj
+         .\Release/worldocull.obj
+         .\Release/worldrender.obj
+         Generazione codice in corso...
+         Generazione codice terminata
+         cube.vcxproj -> C:\Users\lazzaro\Desktop\cube_source\vcpp\..\bin\.exe
+     1>Compilazione progetto "C:\Users\lazzaro\Desktop\cube_source\vcpp\cube.vcxproj" (destinazioni: Build) completata.
+
+Compilazione completata.
+
+Tempo trascorso 00:00:02.02

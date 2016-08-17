@@ -1,15 +1,14 @@
-﻿Compilazione avviata 06/06/2016 23:31:06.
-     1>Progetto "C:\Users\lazzaro\Desktop\lazarus\vcpp\lazarus.vcxproj" sul nodo 2 (destinazioni: Build).
+﻿Compilazione avviata 17/08/2016 19:21:20.
+     1>Progetto "C:\Users\Lazzaro\Desktop\git_repos\Lazarus\vcpp\lazarus.vcxproj" sul nodo 2 (destinazioni: Build).
      1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (..\obj\) contains files shared from another project (cube.vcxproj).  This can lead to incorrect clean and rebuild behavior.
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\enet\include /I..\include /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /GF /Gm- /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Yc"cube.h" /Fp".\Release/cube.pch" /Fo".\Release/" /Fd".\Release/" /Gd /TP /analyze- /errorReport:prompt ..\src\pch.cpp
          pch.cpp
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195): vedere la dichiarazione di 'strncpy'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\enet\include /I..\include /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /GF /Gm- /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/" /Gd /TC /analyze- /errorReport:prompt ..\enet\callbacks.c ..\enet\host.c ..\enet\list.c ..\enet\memory.c ..\enet\packet.c ..\enet\peer.c ..\enet\protocol.c ..\enet\unix.c ..\enet\win32.c
          callbacks.c
@@ -66,64 +65,64 @@
          worldrender.cpp
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\enet\include /I..\include /nologo /W3 /WX- /Ox /Ob2 /Oi /Ot /Oy /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /GF /Gm- /MT /GS- /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release/" /Fd".\Release/" /Gd /TP /analyze- /errorReport:prompt ..\src\clients2c.cpp ..\src\rendershader.cpp ..\src\savegamedemo.cpp ..\src\serverbrowser.cpp ..\src\serverms.cpp ..\src\serverutil.cpp ..\src\tools.cpp
          clients2c.cpp
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195): vedere la dichiarazione di 'strncpy'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
          rendershader.cpp
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195): vedere la dichiarazione di 'strncpy'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
      1>..\src\rendershader.cpp(122): warning C4800: 'char *': imposto valore booleano 'true' o 'false' (avviso di prestazioni)
      1>..\src\rendershader.cpp(182): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356): vedere la dichiarazione di 'sprintf'
          savegamedemo.cpp
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195): vedere la dichiarazione di 'strncpy'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
          serverbrowser.cpp
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195): vedere la dichiarazione di 'strncpy'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
      1>..\src\serverbrowser.cpp(296): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211): vedere la dichiarazione di 'fopen'
          serverms.cpp
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195): vedere la dichiarazione di 'strncpy'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
          serverutil.cpp
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195): vedere la dichiarazione di 'strncpy'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
          tools.cpp
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(64): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195): vedere la dichiarazione di 'strncpy'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(70): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
-     1>c:\users\lazzaro\desktop\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>c:\users\lazzaro\desktop\git_repos\lazarus\src\tools.h(82): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346): vedere la dichiarazione di '_vsnprintf'
      1>..\src\tools.cpp(89): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195): vedere la dichiarazione di 'strncpy'
      1>..\src\tools.cpp(111): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
                  C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211): vedere la dichiarazione di 'fopen'
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\lazzaro\Desktop\lazarus\vcpp\..\bin\.exe) does not match the Linker's OutputFile property value (C:\Users\lazzaro\Desktop\lazarus\bin\lazarus.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1193,5): warning MSB8012: TargetPath(C:\Users\Lazzaro\Desktop\git_repos\Lazarus\vcpp\..\bin\.exe) does not match the Linker's OutputFile property value (C:\Users\Lazzaro\Desktop\git_repos\Lazarus\bin\lazarus.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\bin\lazarus.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\lib odbc32.lib odbccp32.lib zlib.lib opengl32.lib glu32.lib msvcrt.lib SDLmain.lib SDL.lib SDL_image.lib ws2_32.lib winmm.lib SDL_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\Release/cube.pdb" /MAP:".\Release/cube.map" /MAPINFO:EXPORTS /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\bin\lazarus.lib" /MACHINE:X86 /SAFESEH:NO /MACHINE:I386 .\Release/callbacks.obj
          .\Release/host.obj
@@ -169,9 +168,9 @@
          .\Release/worldrender.obj
          Generazione codice in corso...
          Generazione codice terminata
-         lazarus.vcxproj -> C:\Users\lazzaro\Desktop\lazarus\vcpp\..\bin\.exe
-     1>Compilazione progetto "C:\Users\lazzaro\Desktop\lazarus\vcpp\lazarus.vcxproj" (destinazioni: Build) completata.
+         lazarus.vcxproj -> C:\Users\Lazzaro\Desktop\git_repos\Lazarus\vcpp\..\bin\.exe
+     1>Compilazione progetto "C:\Users\Lazzaro\Desktop\git_repos\Lazarus\vcpp\lazarus.vcxproj" (destinazioni: Build) completata.
 
 Compilazione completata.
 
-Tempo trascorso 00:00:09.53
+Tempo trascorso 00:00:09.89
